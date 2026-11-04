@@ -1,0 +1,11 @@
+need: count 3
+loop: "count" > 0
+    say: Countdown "count"
+    sub: "count" 1 count
+loop: 2
+    say: Fixed iteration twice
+loop: always
+    say: Running indefinitely
+    when: "count" == 0
+        stop
+say: Loops finished

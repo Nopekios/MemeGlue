@@ -1,0 +1,34 @@
+need: fact 1
+need: i 1
+loop: 5
+    mul: "fact" "i" fact
+    add: "i" 1 i
+say: Factorial of 5 equals "fact"
+need: a 0
+need: b 1
+need: n 0
+loop: 8
+    say: Fibonacci "n" is "a"
+    add: "a" "b" t
+    need: a "b"
+    need: b "t"
+    add: "n" 1 n
+need: fuel 7
+need: ticks 0
+loop: always
+    add: "ticks" 1 ticks
+    sub: "fuel" 2 fuel
+    say: Burn "ticks" fuel left "fuel"
+    when: "fuel" <= 0
+        say: Fuel empty stop the engine
+        stop
+need: row 0
+loop: 3
+    need: col 0
+    loop: always
+        add: "col" 1 col
+        say: Node row "row" col "col"
+        when: "col" >= 2
+            stop
+    add: "row" 1 row
+say: Turing suite passed

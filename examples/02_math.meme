@@ -1,0 +1,6 @@
+need: base 10
+add: "base" 5 plus
+sub: "plus" 3 minus
+mul: "minus" 4 times
+div: "times" 6 over
+say: base "base" plus "plus" minus "minus" times "times" over "over"

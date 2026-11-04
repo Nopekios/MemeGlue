@@ -1,0 +1,14 @@
+need: age 17
+when: "age" >= 18
+    say: You are an adult.
+no:
+    say: You are a minor.
+need: score 91
+when: "score" > 90
+    say: Grade A
+    when: "score" > 95
+        say: Near perfect
+    no:
+        say: Solid A range
+no:
+    say: Below A range

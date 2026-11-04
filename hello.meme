@@ -1,0 +1,15 @@
+need: count 0
+loop: 3
+    add: "count" 1 count
+    say: 次数循环第 "count" 圈
+need: x 5
+loop: "x" > 0
+    say: 倒计时 "x"
+    sub: "x" 1 x
+need: guard 0
+loop: always
+    add: "guard" 1 guard
+    say: 无限循环第 "guard" 圈
+    when: "guard" >= 3
+        stop
+say: 全部跑完 计数 "count" 倒计时终点 "x" 死循环圈数 "guard"
