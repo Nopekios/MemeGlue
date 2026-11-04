@@ -116,6 +116,15 @@ That is the whole setup. No virtualenv, no 200MB dependency tree, no build step.
 
 ---
 
+### 📜 Origin Blueprint
+
+*The handwritten draft of MemeGlue, conceptualized on a messy bed.*
+*(创世手稿：在一个凌乱的床上推演出的极简语言)*
+
+![MemeGlue Blueprint](docs/blueprint.jpg)
+
+---
+
 ## Author
 
 **Toxic Fox (17 y/o)** — Written from a single bed, fighting against a broken system with pure logic.
